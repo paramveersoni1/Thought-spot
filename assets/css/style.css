@@ -4,7 +4,7 @@
 .header__color{
     background-color: #027dc3;
 }
-.banner{
+.color-white{
     background: aliceblue;
 }
 .pl-7{
@@ -95,4 +95,31 @@ svg.circle-progress {
 }
 ul {
 	list-style: none;
+}
+.steps_title{
+    font-size: 36px;
+}
+.step_info {
+    display: inline-block;
+    border: 1px solid #4173f2;
+    background: white;
+    color: #4173f2;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    padding: 9px;
+    font-weight: 600;
+}
+.steps_inner{
+    position: relative;
+}
+.steps_inner::before {
+    content: "";
+    border: 1px solid #4173f2;
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    left: 0;
+    display: flex;
 }
