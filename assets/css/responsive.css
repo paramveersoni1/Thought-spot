@@ -1,0 +1,32 @@
+@media screen and (max-width:  1199px){
+    .font-size{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:  991px){
+    .font-size{
+        font-size: 24px;
+    }
+    .card_title {
+        color: #19324c;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 567px){
+    .font-size{
+        font-size: 18px;
+    }
+    .banner_img{
+        display: none;
+    }
+    .banner__left{
+        margin-top: 20px;
+         text-align: center;
+    }
+    .card_inner{
+        padding-top: 10px;
+    }
+    .card_col{
+        margin-top: 10px;
+    }
+}

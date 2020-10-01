@@ -1,0 +1,98 @@
+.logo_img{
+    width: 250px;
+}
+.header__color{
+    background-color: #027dc3;
+}
+.banner{
+    background: aliceblue;
+}
+.pl-7{
+    padding-left: 30px;
+}
+.font-size{
+    font-family: "IBM Plex Sans", Sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #19324c;
+    font-size: 44px;
+}
+.section{
+    padding:60px 0
+}
+svg.circle-progress {
+    transform: rotate(-90deg);
+}
+.card_title{
+    color: #19324c;
+    font-size: 36px;
+}
+.priceing_tag {
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.price_text{
+    font-size: 48px;
+}
+.price_link{
+    padding: 0px 0px 50px 0px;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-color: #e5eaef;
+    border-radius: 0px 0px 3px 3px;
+}
+.price_sales{
+    color: #8594a3;
+    vertical-align: baseline;
+    text-decoration: line-through;
+    display: block;
+}
+.seales_tag{
+    position: relative;
+}
+.sales_inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-body h4{
+    font-size: 22px;
+}
+.speed_meter {
+    position: relative;
+}
+.center_title {
+    bottom: 80px;
+    left: 80px;
+    color: #19324c;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: -1.28px;
+}
+.speed_title {
+    position: absolute;
+    bottom: -55px;
+    left: 55px;
+}
+.icon_list{
+    background-color: #ecf0f2;
+    color: #4e5d73;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50% 50% 50%;
+}
+.elementor a, .elementor button{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: gray;  
+}
+.elementor a, .elementor button:hover{
+    text-decoration: none;
+}
+ul {
+	list-style: none;
+}
