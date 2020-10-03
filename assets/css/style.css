@@ -63,7 +63,7 @@ svg.circle-progress {
     position: relative;
 }
 .center_title {
-    bottom: 80px;
+    bottom: 65px;
     left: 80px;
     color: #19324c;
     font-family: "IBM Plex Sans", Sans-serif;
@@ -122,4 +122,44 @@ ul {
     top: 20px;
     left: 0;
     display: flex;
+}
+.work_plan {
+    line-height: revert;
+    background: white;
+    margin-top: 15px;
+    padding: 18px;
+}
+.text-size-20{
+    font-size: 20px;
+}
+.massege_inner {
+    padding: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
+.massege_link,.tel_right{
+    color: #405870;
+}
+.massege_link:hover {
+    text-decoration: none;
+    color: white;
+}
+.massege_inner:hover{
+    background-color: #007bff;
+    text-decoration: none;
+}
+.tel_right{
+    padding: 14px;
+    margin-top: 14px;
+}
+.phone_title {
+    margin-left: 27px;
+    margin-top: 15px;
+}
+.list-style:hover{
+    text-decoration: none;
+}
+.input_text{
+    padding-bottom: 10px;
+    padding-top: 6px;
 }
