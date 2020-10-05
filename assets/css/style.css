@@ -63,19 +63,27 @@ svg.circle-progress {
     position: relative;
 }
 .center_title {
-    bottom: 65px;
-    left: 80px;
+    bottom: 0;
+    left: 0;
     color: #19324c;
     font-family: "IBM Plex Sans", Sans-serif;
+    width: 100%;
     font-size: 32px;
     font-weight: 400;
-    line-height: 1.4em;
-    letter-spacing: -1.28px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .speed_title {
     position: absolute;
-    bottom: -55px;
-    left: 55px;
+    bottom: -51px;
+    left: 0;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 .icon_list{
     background-color: #ecf0f2;
@@ -120,7 +128,7 @@ ul {
     position: absolute;
     width: 100%;
     top: 20px;
-    left: 0;
+    left: 17px;
     display: flex;
 }
 .work_plan {
@@ -137,24 +145,25 @@ ul {
     text-align: center;
     margin-top: 14px;
 }
-.massege_link,.tel_right{
+.massege_inner a{
     color: #405870;
-}
-.massege_link:hover {
-    text-decoration: none;
-    color: white;
 }
 .massege_inner:hover{
     background-color: #007bff;
+}
+.massege_inner:hover a{
     text-decoration: none;
+    color: white;
 }
 .tel_right{
     padding: 14px;
     margin-top: 14px;
+    color: #405870;
 }
 .phone_title {
     margin-left: 27px;
     margin-top: 15px;
+    color: #405870;
 }
 .list-style:hover{
     text-decoration: none;
@@ -162,4 +171,17 @@ ul {
 .input_text{
     padding-bottom: 10px;
     padding-top: 6px;
+}
+.banner_img{
+    animation-delay: 1.5s;
+}
+.banner__left{
+   animation-delay: .05s;
+}
+.navbar-brand{
+    animation-iteration-count: infinite;
+}
+.massege_right{
+    position: sticky;
+    top: 50px;
 }
